@@ -2,18 +2,17 @@
 
 > The minimal amount of CSS to replicate the GitHub Markdown style
 
-[<img src="https://cloud.githubusercontent.com/assets/170270/5219062/f22a978c-7685-11e4-8316-af25b6c89bc0.png" width="300">](http://sindresorhus.com/github-markdown-css)
+Fork from [sindresorhus/github-markdown-css](https://github.com/sindresorhus/github-markdown-css) 
 
-## [Demo](http://sindresorhus.com/github-markdown-css)
+源项目是由[`generate-github-markdown-css`](https://github.com/sindresorhus/generate-github-markdown-css)工具直接爬github的样式所生成的css代码。但爬下来的css与highlight.js插件的样式不兼容，特此fork之后修改。
+![Screenshots](https://zzzzbw.github.io/github-markdown-css/screenshots.jpg)
+
+## [Demo](https://zzzzbw.github.io/github-markdown-css/)
 
 
-## Install
+## Download
 
-Download [manually](https://raw.githubusercontent.com/sindresorhus/github-markdown-css/gh-pages/github-markdown.css), from [CDNJS](https://cdnjs.com/libraries/github-markdown-css), or with npm:
-
-```
-$ npm install github-markdown-css
-```
+Download [github-markdown.css](https://zzzzbw.github.io/github-markdown-css/github-markdown.css)
 
 
 ## Usage
@@ -45,16 +44,6 @@ Import the `github-markdown.css` file and add a `markdown-body` class to the con
 ```
 
 
-## How
-
-See [`generate-github-markdown-css`](https://github.com/sindresorhus/generate-github-markdown-css) for how it's generated and ability to generate your own.
-
-
-## Dev
-
-Run `npm run make` to update the CSS.
-
-
 ## License
 
-MIT © [Sindre Sorhus](https://sindresorhus.com)
+MIT
