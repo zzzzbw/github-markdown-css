@@ -603,7 +603,6 @@
   padding: 0.2em 0.4em;
   margin: 0;
   font-size: 85%;
-  background-color: rgba(27,31,35,0.05);
   border-radius: 3px;
 }
 
@@ -617,7 +616,6 @@
   font-size: 100%;
   word-break: normal;
   white-space: pre;
-  background: transparent;
   border: 0;
 }
 
@@ -632,23 +630,21 @@
 
 .markdown-body .highlight pre,
 .markdown-body pre {
-  padding: 16px;
+  padding: 0;
   overflow: auto;
   font-size: 85%;
   line-height: 1.45;
-  background-color: #f6f8fa;
   border-radius: 3px;
 }
 
 .markdown-body pre code {
-  display: inline;
+  display: block;
   max-width: auto;
-  padding: 0;
+  padding: 10px;
   margin: 0;
-  overflow: visible;
+  overflow: auto;
   line-height: inherit;
   word-wrap: normal;
-  background-color: transparent;
   border: 0;
 }
 
